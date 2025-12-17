@@ -54,10 +54,9 @@ def main():
         except:
             print("⚠️ Bell button not found")
 
-        time.sleep(3)
-        browser.close()
-        print("Done ✔")
+        print("Automation finished. Browser will remain open until you close it.")
+        input("Press Enter here or close the browser to exit...")
+        # browser.close()  # optional: you can leave it commented to manually close
 
 if __name__ == "__main__":
-    input("Press Enter in Terminal or close browser to exit...")
     main()
