@@ -18,7 +18,7 @@ class SubBot:
     bellButtonClick = "Bell[1].click();"
 
     # Channel URL
-    url = "https://www.youtube.com/mightyghosthack"
+    url = "https://www.youtube.com/TTSD3XXY"
 
     # macOS browser launch commands
     listOfBrowser = [
